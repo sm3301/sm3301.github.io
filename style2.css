@@ -1,0 +1,165 @@
+body{
+	background-image: url(Media/ background.jpg);
+	font-family:  'Raleway', sans-serif;
+}
+.container{
+	display:grid;
+	grid-template-columns:15% 5% 80%;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"header header header"
+	"navigation navigation navigation"
+	"left-1 break content"
+	"full full full"
+}
+.header{
+	grid-area: header;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: outset;
+	border-bottom: 5px;
+	background-color:#CCCCCC;
+}
+#header img{
+	height:20%;
+	width: 20%;
+}
+nav{
+	grid-area: navigation;
+	font-family:'Luckiest Guy', cursive;
+	font-size: 33pt;
+	background-color: #CCCCCC;
+	border: outset;
+}
+nav a{
+	color: #FFD138;
+	text-shadow: 2px 2px #2e2f30;
+	padding: 8px 16px;
+	display: inline-block;
+}
+
+nav a:hover{
+	color: #eb47f7;
+}
+
+nav a:hover:not(.active), .dropdown:hover .dropbtn{
+	color: #eb47f7;
+}#break{
+	grid-area:break;
+}
+#highlights{
+	grid-area: left-1;
+	display: inline-block;
+	border: outset;
+	padding-left: 5px;
+	padding-right:5px;
+	background-color: #CCCCCC;
+}
+
+#highlights img{
+	width: 100%;
+	height: 33%;
+	display:block;
+	padding-top: 5px;
+}
+
+#rulk{
+	padding-bottom:10px;
+}
+
+.content{
+	grid-area:content;
+	border: outset;
+	background-color:#CCCCCC;
+}
+.content h2{
+	font-family:'Luckiest Guy', cursive;
+	font-size: 25pt;
+	color: #2f343d;
+}
+.content p{
+	font-family:
+	
+}
+
+.home_page{
+	color: black;
+}
+
+.img_holder{
+	vertical-align: top;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	border: outset;
+	background-color:#CCCCCC;
+}
+
+.img_holder img{
+	width: 100%;
+}
+#full_container{
+	grid-area: full;
+	border: outset;
+	background-color:#CCCCCC;
+	margin:auto;
+	padding: 5px;
+}
+}
+.tier{
+	width: 14%;
+	font-size: 11pt; 
+	display:inline-block;
+	vertical-align: top;
+	margin: auto;
+}
+.tier h1{
+	font-family:'Luckiest Guy', cursive;
+}
+.tier ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+#context{
+	font-family: Hobo Std Medium;
+}
+#mutant, #mystic, #skill, #cosmic, #tech, #science{
+	border: solid 1px;
+	padding: 2px;
+	margin-bottom:2px;
+}
+#mutant{
+	background-color:#f2f2a9;
+}
+#mystic{
+	background-color: #f2a9f1;
+}
+#skill{
+	background-color: #f2a2aa;
+}
+#cosmic{
+	background-color: #a2f2f2;
+}
+#tech{
+	background-color: #a1a8f1;
+}
+#science{
+	background-color: #a1f0a4;
+}
+
+.showcase{
+	color: black;
+}
+.showcase h2{
+	color: #FFD138;
+	font-size: 24pt;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px #2e2f30;
+	font-family:'Luckiest Guy', cursive;
+}
+
+
+
+
+

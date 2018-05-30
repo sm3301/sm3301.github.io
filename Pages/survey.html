@@ -1,0 +1,79 @@
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Tiers For Marvel Contest of Champions</title>
+		<link rel="stylesheet" href="../style.css" />
+		<link rel="shortcut icon" href="../Media/crystaltitle.ico" />
+		<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Raleway" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script>
+		
+			function myFunction () {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "nav") {
+				x.className += " responsive";
+			} 	
+			else {
+				x.className = "nav";
+			}
+		}
+		</script>
+		
+	</head>
+	
+	<body>
+		<div id="topbar">
+			<header>
+				<center><a href="../index.html"><img src="../Media/properlogo.png" id="logo"/></a></center>
+			</header>
+		</div>
+		<div class="nav" id="myTopnav">	
+			<a href="../index.html">HOME</a>
+			<a href="tiers.html">TIERS</a>
+			<a href="newchamps.html">UPDATES</a>
+			<a href="crystals.html">CRYSTALS</a>
+			<a href="survey.html">SURVEY</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+		<div id="full_containter">
+			<center><h2 class="luckiest">SURVEY AND MESSAGE BOARD</h2></center>
+		</div>
+		<div id="update_container">
+			<div class="survey">
+				<form method="post" >
+					<legend>Which of These Characters Would Want Added to the Game?</legend>
+					<!--Fix from W3 schools--><br>Champion Name:</br>
+					
+					<input type="radio" name="character" value="1" onclick="getVote(this.value)">The Thing
+					</br>
+					<input type="radio" name="character" value="2">Invisible Woman
+					</br>
+					<input type="radio" name="character" value="3">Mister Fantastic
+					</br>
+					<input type="radio" name="character" value="4">The Human Torch
+					</br>
+					<input type="radio" name="character" value="5">Bullseye
+					</br>
+					<input type="radio" name="character" value="6">Nick Fury
+					<br>
+					<input type="radio" name="character" value="7">Nova
+					</br>
+					<input type="radio" name="character" value="8">Red Skull
+					</br>
+					<input type="radio" name="character" value="9">Emma Frost
+					</br>
+					<input type="radio" name="character" value="10">Kraven The Hunter
+					</br>
+					<input type="radio" name="character" value="11">Wonder Man
+					</br>
+					<input type="radio" name="character" value="12">Quicksilver
+					<br>
+					<INPUT TYPE="submit" name="Result" value="Result">
+				</form>
+			</div>
+		</div>
+	
+	</body>
+
+</html>
